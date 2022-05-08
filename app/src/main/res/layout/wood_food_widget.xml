@@ -1,0 +1,19 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Widget.WoodFood.AppWidget.Container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Theme.WoodFood.AppWidgetContainer">
+
+    <Button
+        android:id="@+id/button_widget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/cook_o_clock"
+        android:background="@color/babypink"
+        android:padding="5dp"
+        android:shadowRadius="20"
+        android:layout_margin="0dp"
+        android:elevation="20dp"
+        />
+</RelativeLayout>

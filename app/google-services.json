@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "980952265646",
+    "project_id": "woodfood-60ef7",
+    "storage_bucket": "woodfood-60ef7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:980952265646:android:c734667b3fce7388c9ce3f",
+        "android_client_info": {
+          "package_name": "com.example.woodfood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "980952265646-8286rc3kb8jfhgbb4vkqflmbgojgnsqb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.woodfood",
+            "certificate_hash": "f2854a2abca0c2b58afacdb2a917e68db69e6844"
+          }
+        },
+        {
+          "client_id": "980952265646-qufotbhekeqeeqjdl3bqmnkum82f6oud.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDz9CV73PALOcv8F0g3J76YZ-Sc7vEJyAE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "980952265646-qufotbhekeqeeqjdl3bqmnkum82f6oud.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

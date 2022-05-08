@@ -1,0 +1,290 @@
+<resources>
+    <string name="app_name">WoodFood</string>
+    <string name="username">Felhasználónév</string>
+    <string name="password">Jelszó</string>
+    <string name="login">Bejelentkezés</string>
+    <string name="registration">Regisztráció</string>
+    <string name="password_again">Jelszó megerősítése</string>
+    <string name="email">E-mail cím</string>
+    <string name="cancel">Mégse</string>
+    <string name="ingredients">Hozzávalók:</string>
+    <string name="loginWithGoogle">Bejelentkezés Google fiókkal</string>
+    <string name="loginAsGuest">Bejelentkezés vendégként</string>
+    <string name="name_of_recipe">Recept neve</string>
+    <string name="time">Elkészítési idő</string>
+    <string name="preparation">Elkészítése:</string>
+    <string name="save_recipe">Recept mentése</string>
+    <string name="delete">Törlés</string>
+    <string name="more">Bővebben</string>
+    <string name="back">Vissza</string>
+    <string name="category">Kategória</string>
+
+    <string-array name="recipes_names">
+        <item>Smoothie</item>
+        <item>Cocktail</item>
+        <item>Minikuglóf</item>
+        <item>Kenyér</item>
+        <item>Spagetti</item>
+        <item>Dübarry Csirkemell</item>
+        <item>Pommes Anna</item>
+        <item>Burgonyakrémleves</item>
+        <item>Kakaós pöfeteg</item>
+        <item>Baconbe göngyölt spenótos csirkemell</item>
+        <item>Zöldséges currys csirkés rizs</item>
+        <item>Pörkölt</item>
+    </string-array>
+
+    <string-array name="recipes_ingredients">
+        <item> - 1 banán \n
+            - 1 narancs \n
+            - 2 alma \n
+            - 2 kivi \n
+            - 1 körte \n
+        </item>
+        <item>
+            - 2 cl vodka \n
+            - 2 cl kruskovac \n
+            - 8 cl epres vermut \n
+            - 2 cl eperszörp \n
+            - 2 dl narancslé \n
+            - 3 jégkocka \n
+        </item>
+        <item>
+            - 250 g liszt
+            - 1 csomag sütőpor
+            - 250 g margarin
+            - 150 g cukor
+            - 1 csomag vaníliás cukor
+            - 3 db tojás
+            - 1 narancs héja
+            - 1 narancsból nyert narancslé
+        </item>
+        <item> - 3 cup liszt (1 cup 160 g) \n
+            - 0.5 élesztő \n
+            - 2 evőkanál só \n
+            - 1.5 cup meleg víz \n
+        </item>
+        <item> - 0,5 kg darált hús \n
+            - 1 üveg pasztőrözött paradicsom \n
+            - só, bors, bazsalikom, oregánó \n
+            - 400 g spagetti tészta \n
+            - friss petrezselyem \n
+            - 1 ek olaj \n
+        </item>
+        <item> - 0,5 kg csirkemell \n
+            - 1 ek olaj \n
+            - 1 fej karfiol \n
+            - só, bors, petrezselyem, kapor, fokhagyma \n
+            - 70 g vaj \n
+            - 60 g liszt \n
+            - 160 ml tej \n
+            - 3 ek tejföl \n
+            - 10 dkg reszelt sajt \n
+
+        </item>
+        <item> - burgonya \n
+            - friss petrezselyem \n
+            - só, bors \n
+            - kapor \n
+            - fokhagyma \n
+            - 30-50 g vaj (ízléstől függ) \n
+        </item>
+        <item> - 0,5 kg krumpli \n
+            - kockázott bacon \n
+            - 1 nagy fej vöröshagyma \n
+            - 2 gerezd fokhagyma \n
+            - só, bors, szárított petrezselyem, kapor \n
+            - víz \n
+            - egy evőkanál olaj \n
+            - két evőkanál tejföl \n
+        </item>
+        <item>
+            - 200 g porcukor \n
+            - 100 g cukrozatlan kakaópor \n
+            - 350 g liszt \n
+            - 1 csomag sütőpor \n
+            - 2 csipet só \n
+            - 150 g sütőmargarin \n
+            - 4 tojás \n
+            - 1 tábla csoki (ízlés szerint, én mandulás tejcsokit szoktam) \n
+        </item>
+        <item>
+            - 0,5 kg csirkemell filé \n
+            - szeletelt bacon \n
+            - spenót püré \n
+            - feta sajt \n
+            - só, bors, petrezselyem, fokhagyma, kapor \n
+        </item>
+        <item> - 4-5 marék rizs (szemmértékre, kb amennyit 500g csirkéhez megfőznél) \n
+            - 1 közepes méretű sárgarépa \n
+            - só, bors, petrezselyem, curry por, fokhagyma \n
+            - 0,5 kg csirkemell \n
+        </item>
+        <item> - 0,5 kg sertés comb \n
+            - őrölt csemegepaprika (vagy csípős, aki szereti) \n
+            - csili paprika \n
+            - só, bors, szárított petrezselyem \n
+            - 3 gerezd fokhagyma \n
+            - víz \n
+            - (pörkölt kocka) \n
+        </item>
+    </string-array>
+
+    <string-array name="recipes_preparation">
+        <item>
+             - megpucoljuk a gyümölcsöket \n
+            - feldaraboljuk őket \n
+            - robotgéppel, vagy turmix géppel pépesítjük \n
+        </item>
+        <item>
+            - koktélos pohárba öntjük a hozzávalókat \n
+            - narancskarikákkal díszítjük \n
+        </item>
+        <item>
+            - összekeverjük a száraz hozzávalókat, majd az olvasztott margarint és a tojásokat
+            - lereszeljük a narancs héját, kifacsarjuk a levét, majd ezeket is a masszához öntjük
+            - apró kuglóf formákba öntbe tűzpróbáig sütjük
+            - a túlcsorduló piskótát levágjuk, tányérra fektetjük a kuglófot
+            - megtöltjük tejszínhabbal és porcukorral tálaljuk
+            - önthetünk rá akár vanília öntetet, de a lekvár is tkéletesen illik hozzá
+        </item>
+        <item>
+             - felfuttatjuk az élesztőt \n
+            - összegyúrjuk a hozzávalókat \n
+            - 1-2 órát pihenni hagyjuk megformázott állapotban \n
+            - 200 fokra előmelegítjük a sütőt tepsivel együtt \n
+            - kb 20 perc alatt készre sütjük (sütő függő) \n
+            </item>
+        <item>
+            - az olajon megpirítjuk a darálthúst \n
+            - fűszerezzük ízlés szerint \n
+            - megfőzzük a spagetti tésztát, kis só hozzáadásával \n
+            - ha a hús megpirult, hozzáöntjük a paradicsomot és tovbb ízesítjük \n
+            - leszűrjük a tésztát, ha kész \n
+            - pár perc főzés után a szószt a tésztára szedve, friss petrezselyemmel vagy bazsalikomlevéllel, és reszelt sajttal tálalhatjuk \n
+        </item>
+        <item>Nosalty recept (https://www.nosalty.hu/recept/dubarry-csirke) \n
+            - A csirkemellet ketté szedjük, félbe vágjuk, és kiklopfoljuk őket. Picit sózzuk meg a húsokat. \n
+            - Az előkészített csirkemelleket egy kis olajon, serpenyőben megsütjük, majd tepsibe tesszük. \n
+            - A karfiol száráról levagdossuk a gumókat, megmossuk őket, és gyöngyözve forró, sós vízbe tesszük mindet. \n
+            - Lefedve, puhára főzzük őket kb. 20 perc alatt \n
+            - A megfőtt karfiolokat lecsöpögtetjük, és a húsokra tesszük. Ekkor már a sütőt elkezdhetjük előmelegíteni. \n
+            - A besamellhez egy serpenyőben kis hőfokon felolvasztjuk a vajat, majd hozzáadjuk a lisztet. \n
+            - Ha jól összekevertük, apránként felöntjük a tejjel folyamatos kevergetés mellett. Addig tartjuk a tűzhelyen, folyamatosan kevergetve a besamelt, míg be nem sűrűsödik. \n
+            - Levesszük a tűzről, tejföllel higítjuk, reszelt sajttal dúsítjuk, sóval, borssal ízesítjük. \n
+            - Most a besamellt a karfiolokra öntjük, majd berakjuk a húsokat a sütőbe. (200 fokra előmelegítve, 25 percre) \n
+            - (én 170 fokon szoktam sütni tűzpróbáig) \n
+        </item>
+        <item> - megpucoljuk a burgonyákat, megmossuk, majd vékony szeletekre vágjuk őket \n
+            - megolvasztjuk a vaj nagy részét, egy kisebb darabot pedig félreteszünk \n
+            - a megolvasztott vajba belekeverjük az apróra vágott petrezselymet, kaprot, borsot, sót, fokhagymát ízlés szerint \n
+            - előmelegített serpenyőn a félretett kis vajat megolvasztunk \n
+            - ha a vaj megolvadt, elkezdjük rétegezni a burgonyát \n
+            - 1 réteg burgonya, 1 réteg só, újabb réteg burgonya, majd egy réteg fűszeres vaj \n
+            - ismételjük a rétegezést amíg a burgonyánk el nem fogy \n
+            - alacsony lángon, lefedve sütjük, majd átfordítjuk a másik oldalára és lefedve tűzpróbáig pirírjuk \n
+            - frissen vágott petrezselyemmel, újhagymával tálaljuk \n
+        </item>
+        <item> - megpucoljuk, megmossuk, majd lereszeljük a krumplit \n
+            - kevés olajon megpirítjuk a felaprított vöröshagymát \n
+            - a hagymára öntjük a reszelt krumplit, majd felöntjük vízzel, hogy kényelmesen ellepje \n
+            - hozzáadjuk a fűszereinket ízlés szerint \n
+            - ha a krumpli megfőtt, botmixerrel pépesítjük \n
+            - ha nagyon sűrűre sikerült, pótoljuk a vizet és a fűszereket \n
+            - veszünk egy kanállal a levesből, majd két evőkanál tejfölt elkeverünk benne és hozzáadjuk a leveshez \n
+            - megpirítjuk a bacont, majd hozzáöntjük zsírjával együtt a leveshez \n
+            - 3 percig forraljuk \n
+            - pirítóssal tálaljuk \n
+        </item>
+        <item>
+            - összekavarjuk a száraz hozzávalókat és a feldarabolt csokit, majd mehet bele a tojás, margarin \n
+            - egy ragacsosabb masszát kell hogy kapjunk \n
+            - fél órára mehet a hűtőbe \n
+            - kis golyókat formázunk a masszából, ízlés szerint megtölthetjük egy kávéskanál nutellával, kókuszkrémmel vagy lekvárral \n
+            - megforgatjuk porcukorban és 10 perc alatt 170 fokon készre sütjük \n
+        </item>
+        <item>
+            - a csirkét vékony szeletekre vágjuk, majd kiklopfoljuk \n
+            - a csíkokat megfűszerezzük ízlés szerint, majd a baconokre fektetjük őket (egy csíkot egy baconre) \n
+            - a spenőt pürébe feta sajtot morzsolunk, majd bekenjük vele a csíkokat, majd felgönygyöljük őket \n
+            - 170 fokra előmelegített sütőben tűzpróbáig sütjük őket \n
+
+        </item>
+        <item> - megpucoljuk a répát, majd lereszeljük \n
+            - megmossuk a rizst, és egy mély serpenyőben, alacsony lángon, kevés vízben elkezdjük főzni \n
+            - ha a rizs már félig megfőtt, hozzáadjuk a reszelt répát \n
+            - megsózzuk, és hozzáadjuk a curry port, petrezselymet \n
+            - eközben a kis falatokra vágott csirkét kevés olajon, közepes lángon,
+            ízlés szerint fűszerezve curry-vel, sóval, borsal, petrezselyemmel és fokhagymával, meggfőzzük, majd lepirítjuk \n
+            - amikor már látszik, hogy a rizs lassan kész van, hozzáadjuk a kukoricakonzervet \n
+            - pár perc után mehet bele a csirke is \n
+            - 3 percig főzzük alacsony lángon \n
+            - friss petrezselyemmel tálaljuk \n
+        </item>
+        <item>
+             - kevés olajon, alacsony lángon megpirítjuk az apróra vágott hagymát \n
+            - ha a hagyma kész, hozzáöntjük a kis falatokra vágott sertéscombot \n
+            - ha a hús megfehéredett, megszórjuk papikaporral, majd folyamatos kevergetés mellett hozzáöntünk 2 bögre vizet \n
+            - sóval borsal, fokhagymával, szárított petrezselyemmel, csilivel ízesítjük \n
+            - ha sűrűbb szaftot szeretnénk, rakhatunk bele pörkölt kockát, és forraljuk tovább a levét \n
+            - ha hígabb lé a cél, öntsük fel vízzel \n
+            - folyamatosan pótoljuk a szükségesnek látott fűszereket \n
+            - amint a hús megfőtt, pirított tarhogyával, burgonyával és tejföllel tálaljuk \n
+        </item>
+    </string-array>
+
+    <array name="recipes_category">
+        <item>Ital</item>
+        <item>Ital</item>
+        <item>Sütemény</item>
+        <item>Sütemény</item>
+        <item>Főétel</item>
+        <item>Főétel</item>
+        <item>Főétel</item>
+        <item>Leves</item>
+        <item>Sütemény</item>
+        <item>Főétel</item>
+        <item>Főétel</item>
+        <item>Főétel</item>
+    </array>
+
+    <array name="recipes_images">
+        <item>@drawable/smoothie</item>
+        <item>@drawable/cocktail</item>
+        <item>@drawable/minikuglof</item>
+        <item>@drawable/homebread</item>
+        <item>@drawable/spagetti</item>
+        <item>@drawable/dubarry</item>
+        <item>@drawable/pommesanna</item>
+        <item>@drawable/potatosoup</item>
+        <item>@drawable/pofeteg</item>
+        <item>@drawable/bacon</item>
+        <item>@drawable/curryvegies</item>
+        <item>@drawable/porkolt</item>
+    </array>
+
+    <array name="recipes_time">
+        <item>10 perc</item>
+        <item>5 perc</item>
+        <item>60 perc</item>
+        <item>30 perc</item>
+        <item>40 perc</item>
+        <item>80 perc</item>
+        <item>60 perc</item>
+        <item>30 perc</item>
+        <item>30 perc</item>
+        <item>60 perc</item>
+        <item>70 perc</item>
+        <item>180 perc</item>
+    </array>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="app_widget_description">This is an app widget description</string>
+    <string name="delete_saving">Mentés törlése</string>
+    <string name="new_recipe">Új recept</string>
+    <string name="recipe_name">Recept neve</string>
+    <string name="make_new_recipe">Recept létrehozása</string>
+    <string name="ingredient_list">- hozzávaló</string>
+    <string name="preparation_list">- elkészítés</string>
+    <string name="cook_o_clock">Cook o\'clock! :)</string>
+</resources>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fillViewport="true"
+    android:background="@color/babypink"
+    >
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".MainActivity">
+
+        <ImageView
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:id="@+id/main_image"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:layout_margin="10dp"
+            app:srcCompat="@drawable/main"
+            tools:ignore="MissingConstraints"
+            />
+
+        <EditText
+            android:id="@+id/editTextEMail"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="450dp"
+            android:ems="10"
+            android:hint="@string/username"
+            android:inputType="text"
+            android:layout_margin="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/main_image"
+            />
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="150dp"
+            android:ems="10"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:layout_margin="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextEMail"
+            />
+
+        <Button
+            android:id="@+id/loginButton"
+            android:layout_width="300dp"
+            android:layout_height="74dp"
+            app:layout_constraintHorizontal_bias="0.5"
+            android:backgroundTint="@color/strongpink"
+            android:onClick="login"
+            android:text="@string/login"
+            android:layout_margin="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextPassword"
+            />
+
+        <Button
+            android:id="@+id/loginAsGuest"
+            android:layout_width="300dp"
+            android:layout_height="74dp"
+            app:layout_constraintHorizontal_bias="0.5"
+            android:backgroundTint="@color/strongpink"
+            android:onClick="loginAsGuest"
+            android:text="@string/loginAsGuest"
+            android:layout_margin="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/loginButton"
+            />
+
+        <Button
+            android:id="@+id/loginWithGoogle"
+            android:layout_width="300dp"
+            android:layout_height="74dp"
+            app:layout_constraintHorizontal_bias="0.5"
+            android:backgroundTint="@color/strongpink"
+            android:onClick="loginWithGoogle"
+            android:text="@string/loginWithGoogle"
+            android:layout_margin="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/loginAsGuest"
+            />
+
+        <Button
+            android:id="@+id/register"
+            android:layout_width="300dp"
+            android:layout_height="74dp"
+            app:layout_constraintHorizontal_bias="0.5"
+            android:backgroundTint="@color/strongpink"
+            android:onClick="register"
+            android:text="@string/registration"
+            android:layout_margin="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/loginWithGoogle"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
+
+
